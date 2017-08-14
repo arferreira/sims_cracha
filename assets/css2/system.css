@@ -1,0 +1,1404 @@
+@charset "utf-8";
+div, h1, h2, h3, h4, p, ul, ol, li, form, fieldset, button, table, td, th, img {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:1.02em;
+}
+ul {
+    list-style:none
+}
+html {
+    font-size:62.5%
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.2em;
+    margin:0;
+    min-width:730px;
+    min-height:400px;
+    background:#fff
+}
+h1 {
+    font-size:1.5em
+}
+h2 {
+    font-size:1.5em
+}
+h3 {
+    font-size:1.2em
+}
+h4 {
+    font-size:1.1em
+}
+a:link {
+    color:#333;
+    text-decoration:none;
+}
+a:visited {
+    text-decoration:none;
+    color:#999;
+}
+a:hover {
+    text-decoration:none;
+    color:#666;
+}
+a:active {
+    text-decoration:none;
+    color:#CCC;
+}
+div#principal {
+    padding:.5em 1.5em 1.5em 1.5em;
+
+}
+div#conteudo {
+    padding: 30px 60px;
+
+}
+div#conteudo ul{
+    padding: 0 0 0 15px;
+    list-style:inherit;
+
+}
+div#conteudo ol{
+    padding: 0 0 0 15px;
+    list-style:decimal;
+
+}
+div#conteudo #table td{
+    border:1px solid #ccc;
+}
+div#principal_cabecalho {
+
+    height:50px;
+    background-color: #009966;
+}
+
+div#entrar1 {
+    padding:10px 10px;
+    float:LEFT;
+}
+
+div#entrar2 {
+    padding:10px 10px;
+    float:right;
+}
+
+div#index_conteudo {
+    padding:80px 10px;
+    height:350px;
+}
+
+div#index_rodape {
+    padding:.5em 1.5em 1.5em 1.5em;
+    background:#F3F3F3;
+    text-align:right;
+
+}
+
+div#principal_foto {
+    padding:.5em 1.5em 1.5em 9.5em
+}
+
+div#principal_foto ul{
+    padding: 0 0 0 20px;
+    list-style:inherit;
+
+}
+
+div#principal_foto ol{
+    padding: 0 0 0 20px;
+    list-style:decimal;
+}
+
+div#conteudo_esquerdo{
+    float:left;
+    width:30%;
+}
+
+div#conteudo_centro{
+    float:left;
+    width:70%;
+}
+
+div#conteudo_esquerdo1{
+    float:left;
+    width:25%;
+}
+
+div#conteudo_esquerdo2{
+    float:left;
+    width:67%;
+}
+
+div#conteudo_centro2{
+    float:left;
+    width:30%;
+}
+div#conteudo_centro1{
+    float:left;
+    width:75%;
+}
+
+div#conteudo_direito{
+    width:25%;
+    float:LEFT;
+    background:#FEFDDE;
+
+}
+
+div#conteudo_direito1{
+    width:25%;
+    float:right;
+    background:#FFF;
+    padding: 5px;
+
+}
+
+img#img{
+
+    padding: 5px;
+
+}
+
+#titulo1{
+    font-size:16px;
+    color:#003366;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#titulo2{
+    font-size:16px;
+    color: #FF6600;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#titulo3{
+    font-size:16px;
+    color: #999999;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#titulo4{
+    padding: 5px;
+    font-size:20px;
+    color: #993300;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#tituloAlerta1{
+    padding: 5px;
+    font-size:20px;
+    color: #FF6600;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+
+div#titulo_borda{
+    background: #FFFF00;
+    width:98%;
+    border:1px solid #dedede;
+}
+div#titulo_bordaConteudo{
+
+    width:98%;
+    min-height:300px;
+    border:1px solid #dedede;
+}
+div#titulo_borda_Conteudo1{
+
+    width:98%;
+    min-height:150px;
+    border:1px solid #dedede;
+}
+div#titulo_borda ul{
+    font-size:16px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    margin:5px 5px 5px 5px;
+}
+div#titulo_borda li#cor1{
+    color: #003366;
+}
+div#titulo_borda li#cor2{
+
+    color: #FF6600;
+}
+div#titulo_borda li#cor3{
+    color: #999999;
+}
+div#barraNavegacao {
+    padding:1.5em 1.5em 1.5em 1.5em;
+    background-color: #009966;
+    color:#FFFFFF;
+}
+div#barraNavegacao a {
+
+    color:#FFFFFF;
+}
+div#barraIdentificacao {
+    float:right;
+}
+.clear, .clrflt, .spacer {
+
+    clear:both
+}
+/*========== CABEÃ‡ALHO ==========*/
+div#cabecalho {
+    min-height:45px;
+    margin-bottom:3.25ex
+}
+div#cabecalho ul {
+    float:right
+}
+div#cabecalho li {
+    display:inline;
+    padding-left:6px
+}
+div#cabecalho p {
+    margin:0 0 0 133px;
+    padding-bottom:2px
+}
+div#logo {
+    float:left;
+    height:45px
+}
+div#foto {
+    float:left;
+    height:45px;
+}
+div#logo img {
+    border:none;
+    padding-top:15px
+}
+/*========== NAVEGAÃ‡AO ==========*/
+div#navegacao ul {
+    clear:both;
+    background:url(../css/imagens/navegador_bg.png);
+    float:left;
+    width:100%
+}
+div#navegacao li {
+    float:left;
+    border-right:1px solid #800040;
+    position:relative
+}
+div#navegacao li a {
+    display:block;
+    padding:5px 15px 5px 15px;
+    color:#fff;
+    font-weight:bold;
+    position:relative;
+    text-decoration:none
+}
+div#navegacao li#services {
+    border-right:0
+}
+div#navegacao li#services a img {
+    border:none;
+    padding-bottom:2px
+}
+.selected, div#navegacao li.selected a:hover, div#navegacao li.selected:hover {
+    background: url(../css/imagens/navegador_atual.png);
+    font-weight:bold
+}
+div#navegacao li a:hover, div#navegacao li:hover {
+    background: url(../css/imagens/navegador_hover.png)
+}
+div#navegacao li#services ul#servicelist {
+    display:none;
+    position:absolute;
+    background:#ecf0f6;
+    border:1px solid #fff;
+    border-right:1px solid #899dad;
+    border-bottom:1px solid #899dad;
+    width:auto
+}
+div#navegacao li#services li {
+    float:none;
+    border:none;
+    border-bottom:1px solid #ecf0f6
+}
+div#navegacao li#services li a {
+    display:block;
+    background:none;
+    padding:3px 6px 3px 6px;
+    color:#333;
+    font-weight:normal;
+    white-space:nowrap;
+    z-index:1000
+}
+div#navegacao li#services li.selected a {
+    background:#c9d1db;
+    font-weight:bold
+}
+div#navegacao li#services li a:hover {
+    background:#59d;
+    color:#fff
+}
+/*========== RODAPÃ‰ ==========*/
+#rodape {
+    clear:both;
+    margin:2em 0 0 0;
+    padding:2px 0 0 0;
+    text-align:center;
+    color:#999;
+    border-top:3px solid #990000
+}
+#rodape p {
+    font-size:.9em;
+    padding:2px
+}
+/*========== FORMULÃRIO ==========*/
+div#formulario {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFF;
+    border: #EEE 1px solid;
+}
+div#formulario div {
+
+    padding: 5px;
+
+}
+p.legend {
+    margin-bottom: 1em;
+}
+p.legend em {
+    color: #C00;
+    font-style: normal;
+}
+div#errors {
+    margin: 0 0 10px 0;
+    padding: 5px 10px;
+    border: #FC6 1px solid;
+    background-color: #FFC;
+}
+div#errors p {
+    margin: 0;
+}
+div#errors p em {
+    color: #C00;
+    font-style: normal;
+    font-weight: bold;
+}
+div#formulario form p {
+    margin: 0;
+}
+div#formulario form p.note {
+    margin-left: 170px;
+    font-size: 90%;
+    color: #333;
+}
+div#formulario form fieldset {
+    margin: 10px 15px;
+    padding: 10px;
+    border: #990000 1px solid;
+}
+div#formulario form legend {
+    font-weight: bold;
+    color: #666;
+}
+div#formulario form fieldset div {
+    padding: 0.25em 0;
+}
+div#formulario label, div#formulario span.label {
+    margin-right: 10px;
+    padding-right: 10px;
+    width: 150px;
+    display: block;
+    float: left;
+    text-align: right;
+    position: relative;
+}
+div#formulario label.error, div#formulario span.error {
+    color: #C00;
+}
+div#formulario label em, div#formulario span.label em {
+    position: absolute;
+    right: 0;
+    font-size: 120%;
+    font-style: normal;
+    color: #C00;
+}
+div#formulario input.error {
+    border-color: #C00;
+    background-color: #FEF;
+}
+div#formulario select.error {
+    border-color: #C00;
+    background-color: #FEF;
+}
+div#formulario textarea.error {
+    border-color: #C00;
+    background-color: #FEF;
+}
+div#formulario input:focus, div#formulario input.error:focus, div#formulario textarea:focus {
+    background-color: #FFC;
+    border-color: #FC6;
+}
+div#formulario select:focus, div#formulario select.error:focus, div#formulario textarea:focus {
+    background-color: #FFC;
+    border-color: #FC6;
+}
+div#formulario div#controlset label, div#formulario div#controlset input {
+    display: inline;
+    float: none;
+}
+div#formulario div#controlset div {
+    margin-left: 170px;
+}
+div#formulario div#buttonrow {
+    margin-left: 180px;
+}
+#logo {
+    text-align:center;
+    float: left;
+    height: 60px;
+    width: 150px;
+    margin:0 auto;
+}
+.formulario {
+    margin:0 auto;
+    margin-top: 60px;
+    width:400px;
+    padding:14px;
+}
+#login {
+    border:solid 2px #999999;
+    background: #ECF1F5 url(imagens/sistema/bg_form.gif) bottom repeat-x;
+}
+#login h1 {
+    font-size: 18px;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-bottom:solid 1px #999999;
+}
+#login p {
+    font-size: 14px;
+    color:#666666;
+    margin-bottom:20px;
+    border-bottom:solid 1px #999999;
+    padding-bottom:25px;
+}
+#login label {
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:140px;
+    float:left;
+}
+#login .small {
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    text-align:right;
+    width:140px;
+}
+#login input {
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #999999;
+    width:200px;
+    margin:2px 0 20px 10px;
+}
+#login button {
+    clear:both;
+    margin-left:150px;
+    width:125px;
+    height:31px;
+    background:#666666 url(imagens/sistema/botao.png) no-repeat;
+    text-align:center;
+    line-height:31px;
+    color:#FFFFFF;
+    font-size:11px;
+    font-weight:bold;
+}
+div {
+    font-size:11px;
+}
+#central_log {
+    position:absolute;
+    width:778px;
+    left:-387px;
+    margin-left:50%;
+    height:235px;
+    top:75px;
+}
+.sucesso, .cuidado, .erro {
+    border: 1px solid;
+    margin: 10px 15px;
+    padding:10px 5px 10px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.informacao {
+    color: #00529B;
+    border: 1px solid #A2BCD5;
+    margin: 10px 15px;
+    padding:10px 5px 10px 50px;
+    background: url(../css/imagens/icones/info_bg.png) repeat-x #FFFFFF bottom;/*background-color: #BDE5F8;
+    background-image: url(imagens/icones/informacao_32x32.png);*/
+}
+.sucesso {
+    color: #4F8A10;
+    border: 1px solid #A1D4A6;
+    margin: 10px 15px;
+    padding:10px 5px 10px 50px;
+    background: url(../css/imagens/icones/sucesso_bg.png) repeat-x #FFFFFF bottom;
+}
+.cuidado {
+    color: #9F6000;
+    border: 1px solid #E7E032;
+    margin: 10px 15px;
+    padding:10px 5px 10px 50px;
+    background: url(../css/imagens/icones/cuidado_bg.png) repeat-x #FFFFFF bottom;
+}
+.erro {
+    color: #D8000C;
+    border: 1px solid #E73B32;
+    margin: 10px 15px;
+    padding:10px 5px 10px 50px;
+    background: url(../css/imagens/icones/erro_bg.png) repeat-x #FFFFFF bottom;
+}
+.botao, button {
+    background: #ccc url(../css/imagens/botao_bg.png) 4px -1px;
+    border: 1px solid #D9D9D9;
+    color: #5d677b;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    padding: 0 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.botao:hover, button:hover {
+    background: #ccc url(../css/imagens/botao_bg_hover.png) 4px -1px;
+    border: 1px solid #C66100;
+    color:#FFF;
+}
+/* SpryValidationTextField.css - version 0.4 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+
+/* These are the classes applied on the error messages
+ * which prevent them from being displayed by default.
+ */
+.textfieldRequiredMsg, .textfieldInvalidFormatMsg, .textfieldMinValueMsg, .textfieldMaxValueMsg, .textfieldMinCharsMsg, .textfieldMaxCharsMsg, .textfieldValidMsg {
+    display: none;
+}
+/* These selectors change the way messages look when the widget is in one of the error states.
+ * These classes set a default red border and color for the error text.
+ * The state class (e.g. .textfieldRequiredState) is applied on the top-level container for the widget,
+ * and this way only the specific error message can be shown by setting the display property to "inline".
+ */
+.textfieldRequiredState .textfieldRequiredMsg, .textfieldInvalidFormatState .textfieldInvalidFormatMsg, .textfieldMinValueState .textfieldMinValueMsg, .textfieldMaxValueState .textfieldMaxValueMsg, .textfieldMinCharsState .textfieldMinCharsMsg, .textfieldMaxCharsState .textfieldMaxCharsMsg {
+    display: inline;
+    color: #CC3333;
+    border: 1px solid #CC3333;/*    margin-left: 170px;
+    font-size: 90%;
+    color: #333;
+*/}
+/* The next three group selectors control the way the core element (INPUT) looks like when the widget is in one of the states: * focus, required / invalid / minValue / maxValue / minChars / maxChars , valid
+ * There are two selectors for each state, to cover the two main usecases for the widget:
+ * - the widget id is placed on the top level container for the INPUT
+ * - the widget id is placed on the INPUT element itself (there are no error messages)
+ */
+
+ /* When the widget is in the valid state the INPUT has a green background applied on it. */
+.textfieldValidState input, input.textfieldValidState {
+    border: 1px solid #090;
+    background-color: #B8F5B1;
+}
+/* When the widget is in an invalid state the INPUT has a red background applied on it. */
+input.textfieldRequiredState, .textfieldRequiredState input, input.textfieldInvalidFormatState, .textfieldInvalidFormatState input, input.textfieldMinValueState, .textfieldMinValueState input, input.textfieldMaxValueState, .textfieldMaxValueState input, input.textfieldMinCharsState, .textfieldMinCharsState input, input.textfieldMaxCharsState, .textfieldMaxCharsState input {
+    border: 1px solid #F00;
+    background-color: #FFC;/*padding:1px;*/
+}
+/* When the widget has received focus, the INPUT has a yellow background applied on it. */
+.textfieldFocusState input, input.textfieldFocusState {
+    background-color: #FFFFCC;
+}
+/* This class applies only for a short period of time and changes the way the text in the textbox looks like.
+ * It applies only when the widget has character masking enabled and the user tries to type in an invalid character.
+ */
+.textfieldFlashText input, input.textfieldFlashText {
+    color: red !important;
+}
+/* When the widget has the hint message on, the hint text can be styled differently than the user typed text. */
+.textfieldHintState input, input.textfieldHintState {
+/*color: red !important;*/
+}
+/* SpryValidationSelect.css - version 0.4 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* These are the classes applied on the messages
+ * (required message and invalid state message)
+ * which prevent them from being displayed by default.
+ */
+.selectRequiredMsg, .selectInvalidMsg {
+    display: none;
+}
+/* These selectors change the way messages look when the widget is in one of the error states (required, invalid).
+ * These classes set a default red border and color for the error text.
+ * The state class (.selectRequiredState or .selectInvalidState) is applied on the top-level container for the widget,
+ * and this way only the specific error message can be shown by setting the display property to "inline".
+ */
+.selectRequiredState .selectRequiredMsg, .selectInvalidState .selectInvalidMsg {
+    display: inline;
+    color: #CC3333;
+    border: 1px solid #CC3333;
+}
+/* The next three group selectors control the way the core element (SELECT) looks like when the widget is in one of the states:
+ * focus, required / invalid, valid
+ * There are two selectors for each state, to cover the two main usecases for the widget:
+ * - the widget id is placed on the top level container for the SELECT
+ * - the widget id is placed on the SELECT element itself (there are no error messages)
+ */
+
+/* When the widget is in the valid state the SELECT has a green background applied on it. */
+.selectValidState select, select.selectValidState {
+    border: 1px solid #090;
+    background-color: #B8F5B1;
+}
+/* When the widget is in an invalid state the SELECT has a red background applied on it. */
+select.selectRequiredState, .selectRequiredState select, select.selectInvalidState, .selectInvalidState select {
+    border: 1px solid #F00;
+    background-color: #FFC;
+}
+/* When the widget has received focus, the SELECT has a yellow background applied on it. */
+.selectFocusState select, select.selectFocusState {
+    background-color: #FFFFCC;
+}
+/* SpryValidationSelect.css - version 0.4 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* These are the classes applied on the messages
+ * (required message and invalid state message)
+ * which prevent them from being displayed by default.
+ */
+.selectRequiredMsg, .selectInvalidMsg {
+    display: none;
+}
+/* These selectors change the way messages look when the widget is in one of the error states (required, invalid).
+ * These classes set a default red border and color for the error text.
+ * The state class (.selectRequiredState or .selectInvalidState) is applied on the top-level container for the widget,
+ * and this way only the specific error message can be shown by setting the display property to "inline".
+ */
+.selectRequiredState .selectRequiredMsg, .selectInvalidState .selectInvalidMsg {
+    display: inline;
+    color: #CC3333;
+    border: 1px solid #CC3333;
+}
+/* The next three group selectors control the way the core element (SELECT) looks like when the widget is in one of the states:
+ * focus, required / invalid, valid
+ * There are two selectors for each state, to cover the two main usecases for the widget:
+ * - the widget id is placed on the top level container for the SELECT
+ * - the widget id is placed on the SELECT element itself (there are no error messages)
+ */
+
+/* When the widget is in the valid state the SELECT has a green background applied on it. */
+.selectValidState select, select.selectValidState {
+    background-color: #B8F5B1;
+}
+/* When the widget is in an invalid state the SELECT has a red background applied on it. */
+select.selectRequiredState, .selectRequiredState select, select.selectInvalidState, .selectInvalidState select {
+    border: 1px solid #F00;
+    background-color: #FFC;
+}
+/* When the widget has received focus, the SELECT has a yellow background applied on it. */
+.selectFocusState select, select.selectFocusState {
+    background-color: #FFFFCC;
+}
+div#dash1 {
+    padding:10px 15px 10px 15px;
+    margin:10px 15px 10px 15px;
+    background: #E9E9E9 /*#FFFFEE*/;
+    border:1px solid #990000 /*#EEEE00*/
+}
+div#dash1 h1 {
+    position:relative
+}
+div#dash1 div#status {
+    font-size:.9em;
+    border-bottom:1px solid #ccc
+}
+div#dash1 table {
+    font-size:.9em;
+    border-collapse:collapse
+}
+div#dash1 table th.status {
+    background: url(temas/icones/check.gif) no-repeat;
+    padding-left:20px;
+    font-weight:bold;
+    color:#333;
+    border-bottom:1px solid #ccc
+}
+div#dash1 table th.warning {
+    background: url(temas/icones/warning.gif) no-repeat;
+    padding-left:20px;
+    font-weight:bold;
+    color:#333;
+    border-bottom:1px solid #ccc
+}
+div#dash1 table th.error {
+    background: url(temas/icones/redex.gif) no-repeat;
+    padding-left:20px;
+    font-weight:bold;
+    color:#c00;
+    border-bottom:1px solid #ccc
+}
+div#dash1 table th {
+    font-weight:bold;
+    border-bottom:1px solid #ccc
+}
+div#dash1 th, div#dash1 td {
+    padding:2px 5px 2px 0;
+    text-align:left
+}
+div#dash1 table .tablefooter {
+    color:#767676;
+    border-top:1px solid #ccc
+}
+div#dash1 table .current {
+    color:#f60;
+    text-align:center;
+    font-weight:bold
+}
+div#dash1 table .high, .low {
+    color:#090;
+    text-align:center
+}
+div#dom_user {
+    float:left;
+    width:47%;
+    padding-right:2%
+}
+div#users h2 {
+    display:none
+}
+div#users ul {
+    padding:10px 0 0 0
+}
+div#users ul li {
+    display:inline;
+    padding-right:6px
+}
+div#premierinfo {
+    float:left;
+    width:47%
+}
+div#dash2 {
+    margin:20px 30px 20px 30px
+}
+div#dash2 li {
+    display:inline;
+    padding-right:6px
+}
+div#dash2 ul#services {
+    width:100%;
+    list-style:none
+}
+ul#services p {
+    clear:left;
+    padding:0
+}
+div#dash2 ul#services li {
+    float:left;
+    width:47%;
+    margin-right:2%;
+    padding:25px 0 0 0
+}
+div#dash2 ul#services li li {
+    display:inline;
+    width:auto;
+    float:none;
+    margin:0;
+    padding:0 .7em 0 0
+}
+ul#services li ul {
+    margin-left:25px
+}
+ul#services li h3 {
+    font-size: 16px;
+    float:left;
+    padding-left:5px
+}
+ul#services span {
+    color:#767676;
+    padding-left:.2em
+}
+ul#services span.err, ul#services span.errormsg {
+    color:#c00
+}
+ul#services li .beta, th span.beta {
+    color:#c60;
+    font:bold .8em Verdana, Arial, Helvetica, sans-serif;
+    margin-left:3px
+}
+ul#services li p {
+    margin-left:29px
+}
+.inlinetext {
+    display:inline;
+    padding-right:6px
+}
+.inlinelist li, .inlinelist2 li {
+    display:inline;
+    padding-right:0.7em
+}
+ul.inlinelist2 {
+    display:inline
+}
+ul#services span.added {
+    color:#767676;
+    font-weight:bold;
+    background: url(temas/icones/nodisplay2.gif) no-repeat;
+    padding-left:15px;
+    line-height:2.5em
+}
+a.startpage, a.email, a.chat, a.calendar, a.webpages, a.docs, a.blogger, a.sites, a.postini, a.mobile, a.webdrive, a.video, a.salesforce, a.appengine, a.labs, a.contacts, a.representacao_adicionar, a.representacao_editar, a.produto_adicionar, a.produto_editar, a.pedidos_adicionar, a.cifrao, a.bloqueado, a.historico, a.adicionar_banco, a.cobrancas, a.cancelar, a.alterar_pedido, a.ferramenta, a.impressora, a.editar, a.visualizar_dados, a.visto, a.adicionar, a.mail, a.mail_send, a.clipe, a.buscar, a.pausar, a.grafico, a.graf_down, a.engrenagem, a.home, a.contatos, a.caixa_ferramentas, a.info, a.localizar_cliente, a.book_accept, a.pages, a.deletar_usuario, a.security, a.relogio, a.rastrear, a.asterisco, a.add_home, a.familia, a.firewall, a.calculadora, a.codigo_barras, a.arquivo, a.calendario, a.blue_energy, a.mundo, a.note_accept {
+    background: url(temas/icones/mini_icons.gif) no-repeat;
+    width:24px;
+    height:24px;
+    float:left;
+    text-decoration:none;
+    text-indent:-5000px
+}
+a.representacao_adicionar {
+    background:url(../css/icones/adicionar_representacao.png) no-repeat
+}
+a.representacao_editar {
+    background:url(../css/icones/editar_representacao.png) no-repeat
+}
+a.produto_adicionar {
+    background:url(../css/icones/adicionar_produto.png) no-repeat
+}
+a.produto_editar {
+    background:url(../css/icones/editar_produto.png) no-repeat
+}
+a.pedidos_adicionar {
+    background:url(../css/icones/adicionar_pedidos.png) no-repeat
+}
+a.cifrao {
+    background:url(../css/icones/cifrao.png) no-repeat
+}
+a.bloqueado {
+    background:url(../css/icones/bloqueado.png) no-repeat
+}
+a.historico {
+    background:url(../css/icones/historico.png) no-repeat
+}
+a.adicionar_banco {
+    background:url(../css/icones/adicionar_banco.png) no-repeat
+}
+a.cobrancas {
+    background:url(../css/icones/cobrancas.png) no-repeat
+}
+a.cancelar {
+    background:url(../css/icones/cancelar.png) no-repeat
+}
+a.alterar_pedido {
+    background:url(../css/icones/alterar.png) no-repeat
+}
+a.ferramenta {
+    background:url(../css/icones/ferramenta.png) no-repeat
+}
+a.impressora {
+    background:url(../css/icones/impressora.png) no-repeat
+}
+a.editar {
+    background:url(../css/icones/editar.png) no-repeat
+}
+a.visualizar_dados {
+    background:url(../css/icones/visualizar_dados.png) no-repeat
+}
+a.visto {
+    background:url(../css/icones/accept.png) no-repeat
+}
+a.adicionar {
+    background:url(../css/icones/add.png) no-repeat
+}
+a.mail {
+    background:url(../css/icones/mail.png) no-repeat
+}
+a.mail_send {
+    background:url(../css/icones/mail_send.png) no-repeat
+}
+a.clipe {
+    background:url(../css/icones/clipe.png) no-repeat
+}
+a.buscar {
+    background:url(../css/icones/buscar.png) no-repeat
+}
+a.pausar {
+    background:url(../css/icones/pause.png) no-repeat
+}
+a.grafico {
+    background:url(../css/icones/grafico.png) no-repeat
+}
+a.graf_down {
+    background:url(../css/icones/graf_down.png) no-repeat
+}
+a.engrenagem {
+    background:url(../css/icones/process.png) no-repeat
+}
+a.home {
+    background:url(../css/icones/home.png) no-repeat
+}
+a.contatos {
+    background:url(../css/icones/contatos.png) no-repeat
+}
+a.contatos2 {
+    background:url(../css/icones/contatos2.png) no-repeat
+}
+a.caixa_ferramentas {
+    background:url(../css/icones/caixa_ferramentas.png) no-repeat
+}
+a.info {
+    background:url(../css/icones/info.png) no-repeat
+}
+a.localizar_cliente {
+    background:url(../css/icones/localizar_cliente.png) no-repeat
+}
+a.book_accept {
+    background:url(../css/icones/book_accept.png) no-repeat
+}
+a.pages {
+    background:url(../css/icones/pages.png) no-repeat
+}
+a.deletar_usuario {
+    background:url(../css/icones/deletar_usuario.png) no-repeat
+}
+a.security {
+    background:url(../css/icones/security.png) no-repeat
+}
+a.relogio {
+    background:url(../css/icones/relogio.png) no-repeat
+}
+a.rastrear {
+    background:url(../css/icones/rastrear.png) no-repeat
+}
+a.asterisco {
+    background:url(../css/icones/asterisco.png) no-repeat
+}
+a.add_home {
+    background:url(../css/icones/add_home.png) no-repeat
+}
+a.familia {
+    background:url(../css/icones/familia.png) no-repeat
+}
+a.firewall {
+    background:url(../css/icones/firewall.png) no-repeat
+}
+a.calculadora {
+    background:url(../css/icones/calculadora.png) no-repeat
+}
+a.codigo_barras {
+    background:url(../css/icones/codigo_barras.png) no-repeat
+}
+a.arquivo {
+    background:url(../css/icones/arquivo.png) no-repeat
+}
+a.calendario {
+    background:url(../css/icones/calendario.png) no-repeat
+}
+a.blue_energy {
+    background:url(../css/icones/blue_energy.png) no-repeat
+}
+a.mundo {
+    background:url(../css/icones/mundo.png) no-repeat
+}
+a.note_accept {
+    background:url(../css/icones/note_accept.png) no-repeat
+}
+a.email {
+    background-position:0 -20px
+}
+a.chat {
+    background-position:0 -40px
+}
+a.calendar {
+    background-position:0 -60px
+}
+a.webpages {
+    background-position:0 -80px
+}
+a.docs {
+    background-position:0 -100px
+}
+a.postini {
+    background:url(temas/icones/icon_postini_20.gif) no-repeat
+}
+a.mobile {
+    background:url(temas/icones/mini_mobile.gif) no-repeat
+}
+a.webdrive {
+    background:url(temas/icones/mini_webdrive.gif) no-repeat
+}
+a.blogger {
+    background:url(temas/icones/mini_blogger.gif) no-repeat
+}
+a.video {
+    background:url(temas/icones/appsvideo.gif) no-repeat
+}
+a.sites {
+    background:url(temas/icones/sites.gif) no-repeat
+}
+a.appengine {
+    background:url(temas/icones/mini_appengine.gif) no-repeat
+}
+a.salesforce {
+    background:url(temas/icones/salesforce-s-16x16.gif) no-repeat
+}
+a.contacts {
+    background:url(temas/icones/mini_contacts.gif) no-repeat
+}
+a.labs {
+    background:url(temas/icones/mini_beaker.gif) no-repeat
+}
+.limparfloat {
+    clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.listagem {
+    /*width: 780px;*/
+    background: #FFFFFF;
+    margin: 10px auto;
+    /*padding: 0 10px;*/
+    /*border: 1px solid #0E8562;*/
+    text-align: left;
+}
+.listagem #titulo {
+    background: #F2F2F2;
+    color: #000;
+    margin: 0;
+    padding: 2px;
+    border-top:2px solid #0E8562;
+    border-bottom:1px solid #DDDDDD;
+    height:24px;
+}
+.listagem #informacoes {
+    float: left;
+    width: 150px;
+    padding: 4px 10px;
+    font-size:11px;
+    font-weight:bold;
+}
+.listagem #busca {
+    background:#FFFFFF;
+    border:1px solid #BDD6CD;
+    width:210px;
+    height:18px;
+    margin: 0;
+    padding: 2px 1px;
+    font-size: 10px;
+    float: right;
+}
+.listagem #busca form input{
+    margin: 0;
+    padding: 0;
+    background:#FFFFFF;
+    border:1px solid #FFFFFF;
+    width:190px;
+    height: 16px;
+}
+.listagem #busca form input.botao{
+    margin: 0;
+    padding: 0;
+    background: url(../css/imagens/busca.png) no-repeat;
+    border: none;
+    cursor:pointer;
+    width:16px;
+    height:16px;
+
+}
+.listagem #itens {
+    margin: 10px;
+    padding: 0;
+    clear:both;
+}
+.listagem #itens table {
+    font-size:11px;
+    padding: 0;
+    margin: 0;
+    width:100%;
+    border-collapse: collapse;/*background: #F3F5F7;*/
+}
+/*.listagem #itens table a {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 1px solid #C6C8CB;
+}
+.listagem #itens table a:visited {
+    color: #CCC;
+}
+.listagem #itens table a:hover {
+    color: #FFF;
+}*/
+.listagem #itens table caption {
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.listagem #itens table thead th {
+    /*background: #060;*/
+    padding: 5px 2px;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+    font-size:14px;
+    background:#009966;
+    color:#FFFFFF;
+}
+/*.listagem #itens table tbody, .listagem #itens table thead {
+    border-left: 1px solid #EAECEE;
+    border-right: 1px solid #EAECEE;
+}
+*/.listagem #itens table tbody {
+    border-bottom: 1px solid #EAECEE;
+}
+.listagem #itens table tbody td, .listagem #itens table tbody th {
+    padding: 2px;
+    background: url(../css/imagens/td_back.gif) repeat-x;
+    text-align: left;
+}
+.listagem #itens table tbody tr {
+    background: #FFF /*#F3F5F7*/;
+}
+.listagem #itens table tbody tr.odd {
+    background: #F0F2F4;
+}
+.listagem #itens table tbody tr:hover {
+    background: #F2F2F2;
+    /*color: #FFF;*/
+    font-weight:bold;
+    /*cursor:pointer;*/
+}
+.listagem #itens table tfoot td, .listagem #itens table tfoot th, .listagem #itens table tfoot tr {
+    text-align: left;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px;
+}
+.listagem #paginacao {
+    padding: 5px;
+    /*background:#0E8562;*/
+    color: #000;
+    border-top:1px solid #DDDDDD;
+    border-bottom:1px solid #0E8562;
+}
+.listagem #totalizador {
+    float: left;
+    width: 150px;
+    /*padding: 4px 10px;*/
+    font-size:11px;
+    font-weight:bold;
+}
+.listagem #paginas {
+    float: right;
+    width: 360px;
+    padding: 0 10px;
+    text-align:right;
+}
+.listagem #paginas a:link {
+    border: 1px solid #128765;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    padding: 2px 6px 2px 6px;
+    text-decoration: none;
+    color: #128765;
+    font-weight:bold;
+/*  color: #000;
+    font-weight:bold;
+    text-decoration:none;
+*/
+}
+.listagem #paginas a:visited {
+    border: 1px solid #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    padding: 2px 6px 2px 6px;
+    color: #999;
+    cursor: default;
+/*  text-decoration:none;
+    color: #000;
+*/
+}
+.listagem #paginas a:hover {
+    background-color: #128765;
+    border: 1px solid #128765;
+    color: #FFF;
+    text-decoration: none;
+/*  text-decoration:none;
+    color: #000;
+    font-weight:bold;
+*/}
+.listagem #paginas span.pagina_atual {
+    border: 1px solid #128765;
+    font: bold .7em Arial, Helvetica, sans-serif;
+    padding: 2px 6px 2px 6px;
+    cursor: default;
+    background:#128765;
+    color: #FFF;
+    text-decoration: none;
+}
+.listagem #paginas a:active {
+    text-decoration:none;
+    color:#CCC;
+}
+
+.clrflt #pesquisar form input{
+    margin: 0;
+    padding: 0;
+    background:#FFFFFF;
+    border:1px solid #FFFFFF;
+    width:190px;
+    height: 16px;
+}
+.clrflt #pesquisar form input.botao{
+    margin: 0;
+    padding: 0;
+    background: url(../css/imagens/busca.png) no-repeat;
+    border: none;
+    cursor:pointer;
+    width:16px;
+    height:16px;
+
+}
+
+#validacao{
+    border-left:3px solid #FF6600;
+    background:#FFFFCC;
+}
+
+tr.fundoTitulo {
+    background-color: #AAAAAA;
+    color:#FFFFFF
+}
+
+.Fundo1{
+    background : #D2D2D2;
+    color: #000000;
+    font : bold 10px verdana;
+}
+.Fundo2{
+    background-color: #003366;
+    color: #000000;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 12px;
+
+
+}
+.Fundo3{
+    background-color: #CCCCCC;
+    color: #000000;
+    font : bold 12 px Verdana;
+}
+.Fundo4{
+    background-color: #DDDDDD;
+    color: #000000;
+    font :  12 px Arial;
+}
+.Fundo5{
+    background-color: #C2D9E7;
+    color: #000000;
+    font : 11 px Verdana;
+}
+.Fundo6{
+    color: #000000;
+    font : bold 11px verdana;
+    background : url(../img/fundo_alerta.gif);
+}
+.Fundo7{
+    background-color : #feeabe;
+    font : bold 13px Arial, Verdana, serif;
+     color : #4C7185;
+}
+
+/*estilo fontes*/
+.NormalVermelho, A.NormalVermelho:LINK, A.NormalVermelho:VISITED, A.NormalVermelho:ACTIVE {
+    color : red;
+    font : 10px/12px Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.Grande, A.Grande:LINK, A.Grande:VISITED, A.Grande:ACTIVE, A.Grande:HOVER {
+    font-size : 8pt;
+    color : #333333
+}
+.clear {
+    clear: both;
+                }
+.clear, .clrflt, .spacer {
+    clear:both
+}
+.clrflt{
+margin-left:200px;
+position:absolute;
+margin-top: -250px;
+    padding: 0;
+    background:#FFFFFF;
+    border:1px solid #FFFFFF;
+    width:190px;
+    height: 16px;
+}
+
+#mainContainer{
+        width:660px;
+        margin:0 auto;
+        text-align:left;
+        height:100%;
+        background-color:#FFF;
+        border-left:3px double #000;
+        border-right:3px double #000;
+    }
+    #formContent{
+        padding:5px;
+    }
+    /* END CSS ONLY NEEDED IN DEMO */
+
+
+    /* Big box with list of options */
+    #ajax_listOfOptions{
+        position:absolute;  /* Never change this one */
+        width:175px;    /* Width of box */
+        height:250px;   /* Height of box */
+        overflow:auto;  /* Scrolling features */
+        border:1px solid #317082;   /* Dark green border */
+        background-color:#FFF;  /* White background color */
+        text-align:left;
+        font-size:0.9em;
+        z-index:100;
+    }
+    #ajax_listOfOptions div{    /* General rule for both .optionDiv and .optionDivSelected */
+        margin:1px;
+        padding:1px;
+        cursor:pointer;
+        font-size:0.9em;
+    }
+    #ajax_listOfOptions .optionDiv{ /* Div for each item in list */
+
+    }
+    #ajax_listOfOptions .optionDivSelected{ /* Selected item in the list */
+        background-color:#317082;
+        color:#FFF;
+    }
+    #ajax_listOfOptions_iframe{
+        background-color:#F00;
+        position:absolute;
+        z-index:5;
+    }
+
+    form{
+        display:inline;
+    }
